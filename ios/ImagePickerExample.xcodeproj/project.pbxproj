@@ -314,6 +314,51 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ImagePickerExample/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A77AF02080B9FC00083A34 /* ImagePickerHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePickerHelper.h; sourceTree = "<group>"; };
+		34A77AF12080B9FC00083A34 /* ImagePickerHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerHelper.m; sourceTree = "<group>"; };
+		34A77AF22080B9FC00083A34 /* ImagePickerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePickerManager.h; sourceTree = "<group>"; };
+		34A77AF32080B9FC00083A34 /* ImagePickerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerManager.m; sourceTree = "<group>"; };
+		34A77AF42080B9FC00083A34 /* NSDictionary+SYSafeConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SYSafeConvert.h"; sourceTree = "<group>"; };
+		34A77AF52080B9FC00083A34 /* NSDictionary+SYSafeConvert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SYSafeConvert.m"; sourceTree = "<group>"; };
+		34A77AF62080B9FC00083A34 /* PhotoPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoPicker.h; sourceTree = "<group>"; };
+		34A77AF72080B9FC00083A34 /* PhotoPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoPicker.m; sourceTree = "<group>"; };
+		34A77AF82080B9FC00083A34 /* RNSyanImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSyanImagePicker.h; sourceTree = "<group>"; };
+		34A77AF92080B9FC00083A34 /* RNSyanImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSyanImagePicker.m; sourceTree = "<group>"; };
+		34A77AFA2080B9FC00083A34 /* RNSyanImagePickerStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSyanImagePickerStrategy.m; sourceTree = "<group>"; };
+		34A77AFB2080B9FC00083A34 /* StrategyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyProtocol.h; sourceTree = "<group>"; };
+		34A77AFC2080B9FC00083A34 /* TakePhotoPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakePhotoPicker.h; sourceTree = "<group>"; };
+		34A77AFD2080B9FC00083A34 /* TakePhotoPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakePhotoPicker.m; sourceTree = "<group>"; };
+		34A77AFF2080B9FC00083A34 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		34A77B002080B9FC00083A34 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		34A77B012080B9FC00083A34 /* TZAssetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		34A77B022080B9FC00083A34 /* TZAssetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		34A77B032080B9FC00083A34 /* TZAssetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		34A77B042080B9FC00083A34 /* TZAssetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		34A77B052080B9FC00083A34 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		34A77B062080B9FC00083A34 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		34A77B072080B9FC00083A34 /* TZImageCropManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		34A77B082080B9FC00083A34 /* TZImageCropManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		34A77B092080B9FC00083A34 /* TZImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		34A77B0A2080B9FC00083A34 /* TZImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		34A77B0B2080B9FC00083A34 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		34A77B0C2080B9FC00083A34 /* TZImagePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		34A77B0D2080B9FC00083A34 /* TZImagePickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		34A77B0E2080B9FC00083A34 /* TZLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLocationManager.h; sourceTree = "<group>"; };
+		34A77B0F2080B9FC00083A34 /* TZLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLocationManager.m; sourceTree = "<group>"; };
+		34A77B102080B9FC00083A34 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		34A77B112080B9FC00083A34 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		34A77B122080B9FC00083A34 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		34A77B132080B9FC00083A34 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		34A77B142080B9FC00083A34 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		34A77B152080B9FC00083A34 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		34A77B162080B9FC00083A34 /* TZProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		34A77B172080B9FC00083A34 /* TZProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		34A77B182080B9FC00083A34 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		34A77B192080B9FC00083A34 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		34A77B1A2080B9FC00083A34 /* UIView+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		34A77B1B2080B9FC00083A34 /* UIView+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		34A77B1C2080B9FC00083A34 /* VideoPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPicker.h; sourceTree = "<group>"; };
+		34A77B1D2080B9FC00083A34 /* VideoPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPicker.m; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -414,6 +459,7 @@
 		13B07FAE1A68108700A75B9A /* ImagePickerExample */ = {
 			isa = PBXGroup;
 			children = (
+				34A77AEF2080B9FC00083A34 /* StrategyPatternDemo */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -454,6 +500,67 @@
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34A77AEF2080B9FC00083A34 /* StrategyPatternDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34A77AF02080B9FC00083A34 /* ImagePickerHelper.h */,
+				34A77AF12080B9FC00083A34 /* ImagePickerHelper.m */,
+				34A77AF22080B9FC00083A34 /* ImagePickerManager.h */,
+				34A77AF32080B9FC00083A34 /* ImagePickerManager.m */,
+				34A77AF42080B9FC00083A34 /* NSDictionary+SYSafeConvert.h */,
+				34A77AF52080B9FC00083A34 /* NSDictionary+SYSafeConvert.m */,
+				34A77AF62080B9FC00083A34 /* PhotoPicker.h */,
+				34A77AF72080B9FC00083A34 /* PhotoPicker.m */,
+				34A77AF82080B9FC00083A34 /* RNSyanImagePicker.h */,
+				34A77AF92080B9FC00083A34 /* RNSyanImagePicker.m */,
+				34A77AFA2080B9FC00083A34 /* RNSyanImagePickerStrategy.m */,
+				34A77AFB2080B9FC00083A34 /* StrategyProtocol.h */,
+				34A77AFC2080B9FC00083A34 /* TakePhotoPicker.h */,
+				34A77AFD2080B9FC00083A34 /* TakePhotoPicker.m */,
+				34A77AFE2080B9FC00083A34 /* TZImagePickerController */,
+				34A77B1C2080B9FC00083A34 /* VideoPicker.h */,
+				34A77B1D2080B9FC00083A34 /* VideoPicker.m */,
+			);
+			name = StrategyPatternDemo;
+			path = ImagePickerExample/StrategyPatternDemo;
+			sourceTree = "<group>";
+		};
+		34A77AFE2080B9FC00083A34 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				34A77AFF2080B9FC00083A34 /* NSBundle+TZImagePicker.h */,
+				34A77B002080B9FC00083A34 /* NSBundle+TZImagePicker.m */,
+				34A77B012080B9FC00083A34 /* TZAssetCell.h */,
+				34A77B022080B9FC00083A34 /* TZAssetCell.m */,
+				34A77B032080B9FC00083A34 /* TZAssetModel.h */,
+				34A77B042080B9FC00083A34 /* TZAssetModel.m */,
+				34A77B052080B9FC00083A34 /* TZGifPhotoPreviewController.h */,
+				34A77B062080B9FC00083A34 /* TZGifPhotoPreviewController.m */,
+				34A77B072080B9FC00083A34 /* TZImageCropManager.h */,
+				34A77B082080B9FC00083A34 /* TZImageCropManager.m */,
+				34A77B092080B9FC00083A34 /* TZImageManager.h */,
+				34A77B0A2080B9FC00083A34 /* TZImageManager.m */,
+				34A77B0B2080B9FC00083A34 /* TZImagePickerController.bundle */,
+				34A77B0C2080B9FC00083A34 /* TZImagePickerController.h */,
+				34A77B0D2080B9FC00083A34 /* TZImagePickerController.m */,
+				34A77B0E2080B9FC00083A34 /* TZLocationManager.h */,
+				34A77B0F2080B9FC00083A34 /* TZLocationManager.m */,
+				34A77B102080B9FC00083A34 /* TZPhotoPickerController.h */,
+				34A77B112080B9FC00083A34 /* TZPhotoPickerController.m */,
+				34A77B122080B9FC00083A34 /* TZPhotoPreviewCell.h */,
+				34A77B132080B9FC00083A34 /* TZPhotoPreviewCell.m */,
+				34A77B142080B9FC00083A34 /* TZPhotoPreviewController.h */,
+				34A77B152080B9FC00083A34 /* TZPhotoPreviewController.m */,
+				34A77B162080B9FC00083A34 /* TZProgressView.h */,
+				34A77B172080B9FC00083A34 /* TZProgressView.m */,
+				34A77B182080B9FC00083A34 /* TZVideoPlayerController.h */,
+				34A77B192080B9FC00083A34 /* TZVideoPlayerController.m */,
+				34A77B1A2080B9FC00083A34 /* UIView+Layout.h */,
+				34A77B1B2080B9FC00083A34 /* UIView+Layout.m */,
+			);
+			path = TZImagePickerController;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -582,7 +689,8 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = MWRFE968XU;
+						DevelopmentTeam = Y2E9AM7RN7;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -987,9 +1095,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = MWRFE968XU;
+				DEVELOPMENT_TEAM = Y2E9AM7RN7;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-syan-image-picker/ios/**",
@@ -1005,7 +1115,9 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.ImagePickerExample1;
 				PRODUCT_NAME = ImagePickerExample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1014,8 +1126,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MWRFE968XU;
+				DEVELOPMENT_TEAM = Y2E9AM7RN7;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-syan-image-picker/ios/**",
@@ -1031,7 +1145,9 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.ImagePickerExample1;
 				PRODUCT_NAME = ImagePickerExample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
